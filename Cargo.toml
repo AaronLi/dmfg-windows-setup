@@ -1,0 +1,9 @@
+[package]
+name = "dmfg_windows_setup"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+strum = { version = "0.26.3", features = ["derive"] }
+winreg = "0.52.0"
