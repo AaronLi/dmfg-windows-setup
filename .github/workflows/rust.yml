@@ -27,7 +27,5 @@ jobs:
       with:
         # The name of the release to publish
         title: latest release
-        workdir: $RUNNER_TEMP/artifacts
-        # The tag of the release to publish
-        tag: latest
+        workdir: ${{ env.RUNNER_TEMP }}/artifacts
               
